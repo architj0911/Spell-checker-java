@@ -1,6 +1,6 @@
 // SpellChecker 
-// Author: Archit Jain, Anushka Agrawal
-// Roll No: 2401330130059, 2401330130060
+// Author: Archit Jain
+// Roll No:2401330130060
 
 import java.io.*;
 import java.util.ArrayList;
@@ -115,7 +115,7 @@ public class SpellCheckerGUI {
         southPanel.add(scrollPane, BorderLayout.CENTER);
 
         JLabel footer = new JLabel(
-            "Created by: Archit Jain (2401330130060) & Anushka Agrawal (2401330130059)",
+            "Created by: Archit Jain (2401330130060)",
             SwingConstants.CENTER
         );
         footer.setFont(new Font("SansSerif", Font.BOLD, 18));
@@ -152,3 +152,4 @@ public class SpellCheckerGUI {
         frame.setVisible(true);
     }
 }
+
